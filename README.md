@@ -20,3 +20,4 @@ npm start
   - https://github.com/apollographql/apollo-link-rest/issues/280
 - VSCode @rest support (still errors with workaround)
   - https://github.com/apollographql/apollo-tooling/issues/2180
+  - https://github.com/apollographql/apollo-link-rest/pull/228
