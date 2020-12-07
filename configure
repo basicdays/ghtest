@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+set -Eeou pipefail
+
+read -r -p "Github Developer Token: " GH_TOKEN
+
+cat <<END > .env
+GH_TOKEN=$GH_TOKEN
+END

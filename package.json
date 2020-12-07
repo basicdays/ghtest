@@ -1,0 +1,38 @@
+{
+  "name": "@basicdays/ghtest",
+  "version": "1.0.0",
+  "description": "Github API testing",
+  "license": "MIT",
+  "author": "BasicDays <info@basicdays.com> (https://www.basicdays.com)",
+  "files": [
+    "bin",
+    "lib"
+  ],
+  "main": "./lib/index.js",
+  "bin": {
+    "ghtest": "./bin/ghtest.js"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "setup": "./configure",
+    "start": "./bin/ghtest.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@apollo/client": "^3.3.3",
+    "apollo-link-rest": "^0.8.0-beta.0",
+    "cross-fetch": "^3.0.6",
+    "dotenv": "^8.2.0",
+    "graphql": "^15.4.0",
+    "graphql-anywhere": "^4.2.7",
+    "lodash": "^4.17.20",
+    "qs": "^6.9.4"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.10",
+    "prettier": "^2.2.1"
+  },
+  "prettier": {}
+}
